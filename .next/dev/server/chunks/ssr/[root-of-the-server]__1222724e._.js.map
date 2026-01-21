@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kalya/OneDrive/Desktop/Project4You/project4u/app/page.tsx"],"sourcesContent":["import \"./globals.css\";\r\nimport Navbar from \"@/components/Navbar\";\r\n\r\nexport default function RootLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body>\r\n        <Navbar />\r\n        {children}\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;;;;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;;8BACC,8OAAC,gIAAM;;;;;gBACN;;;;;;;;;;;;AAIT"}}]
+}

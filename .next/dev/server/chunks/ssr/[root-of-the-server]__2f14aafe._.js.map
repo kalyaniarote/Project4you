@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kalya/OneDrive/Desktop/Project4You/project4u/app/%28auth%29/login/page.tsx"],"sourcesContent":["export default function LoginPage() {\r\n  return (\r\n    <div style={{ padding: \"40px\", maxWidth: \"400px\" }}>\r\n      <h1>Login</h1>\r\n\r\n      <form>\r\n        <div>\r\n          <label>Email</label><br />\r\n          <input type=\"email\" placeholder=\"Enter email\" />\r\n        </div>\r\n\r\n        <br />\r\n\r\n        <div>\r\n          <label>Password</label><br />\r\n          <input type=\"password\" placeholder=\"Enter password\" />\r\n        </div>\r\n\r\n        <br />\r\n\r\n        <button type=\"submit\">Login</button>\r\n      </form>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,UAAU;QAAQ;;0BAC/C,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;;kCACC,8OAAC;;0CACC,8OAAC;0CAAM;;;;;;0CAAa,8OAAC;;;;;0CACrB,8OAAC;gCAAM,MAAK;gCAAQ,aAAY;;;;;;;;;;;;kCAGlC,8OAAC;;;;;kCAED,8OAAC;;0CACC,8OAAC;0CAAM;;;;;;0CAAgB,8OAAC;;;;;0CACxB,8OAAC;gCAAM,MAAK;gCAAW,aAAY;;;;;;;;;;;;kCAGrC,8OAAC;;;;;kCAED,8OAAC;wBAAO,MAAK;kCAAS;;;;;;;;;;;;;;;;;;AAI9B"}}]
+}

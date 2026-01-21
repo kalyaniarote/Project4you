@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kalya/OneDrive/Desktop/Project4You/project4u/app/%28auth%29/register/page.tsx"],"sourcesContent":["export default function RegisterPage() {\r\n  return (\r\n    <div style={{ padding: \"40px\", maxWidth: \"400px\" }}>\r\n      <h1>Register</h1>\r\n\r\n      <form>\r\n        <input placeholder=\"Name\" /><br /><br />\r\n        <input placeholder=\"Email\" /><br /><br />\r\n        <input type=\"password\" placeholder=\"Password\" /><br /><br />\r\n        <button>Register</button>\r\n      </form>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,UAAU;QAAQ;;0BAC/C,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;;kCACC,8OAAC;wBAAM,aAAY;;;;;;kCAAS,8OAAC;;;;;kCAAK,8OAAC;;;;;kCACnC,8OAAC;wBAAM,aAAY;;;;;;kCAAU,8OAAC;;;;;kCAAK,8OAAC;;;;;kCACpC,8OAAC;wBAAM,MAAK;wBAAW,aAAY;;;;;;kCAAa,8OAAC;;;;;kCAAK,8OAAC;;;;;kCACvD,8OAAC;kCAAO;;;;;;;;;;;;;;;;;;AAIhB"}}]
+}

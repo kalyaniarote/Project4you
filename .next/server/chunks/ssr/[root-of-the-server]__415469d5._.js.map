@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/public/page.tsx"],"sourcesContent":["export default function LoginPage() {\r\n  return (\r\n    <h1>Login Page</h1>\r\n  );\r\n}\r\n"],"names":[],"mappings":"qVAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,cAER"}
