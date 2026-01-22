@@ -1,8 +1,8 @@
-import { dbConnect } from "@/lib/db";
+import { connectDB } from "@/lib/db";
 
 export async function GET() {
   try {
-    await dbConnect();
+    await connectDB();
     return Response.json({ message: "MongoDB connected successfully" });
   } catch (error) {
     return Response.json(
