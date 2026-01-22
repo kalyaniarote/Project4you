@@ -1,3 +1,7 @@
-export default function Project() {
-  return <div>Project Page content</div>;
+export default function ProjectsPage() {
+  return (
+    <main>
+      <h1>Projects</h1>
+    </main>
+  );
 }

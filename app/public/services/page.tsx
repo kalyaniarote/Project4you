@@ -1,3 +1,7 @@
-export default function Servicespage() {
-  return <div>Page content</div>;
+export default function ServicesPage() {
+  return (
+    <main>
+      <h1>Services</h1>
+    </main>
+  );
 }
