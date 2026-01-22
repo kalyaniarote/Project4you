@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kalya/OneDrive/Desktop/Project4You/project4u/lib/db.js"],"sourcesContent":["import mongoose from \"mongoose\";\r\n\r\nconst MONGODB_URI = \"mongodb+srv://hrtecnobij_db_user:Kalyani12345@cluster0.bmoin05.mongodb.net/project4u?appName=Cluster0\";\r\n\r\nexport async function connectDB() {\r\n  if (!MONGODB_URI) {\r\n    throw new Error(\"MONGODB_URI not found\");\r\n  }\r\n\r\n  if (mongoose.connection.readyState >= 1) {\r\n    return;\r\n  }\r\n\r\n  await mongoose.connect(MONGODB_URI);\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,cAAc;AAEb,eAAe;IACpB;;IAIA,IAAI,mKAAQ,CAAC,UAAU,CAAC,UAAU,IAAI,GAAG;QACvC;IACF;IAEA,MAAM,mKAAQ,CAAC,OAAO,CAAC;AACzB"}},
-    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kalya/OneDrive/Desktop/Project4You/project4u/app/api/test-db/route.ts"],"sourcesContent":["import { connectDB } from \"@/lib/db\";\r\n\r\nexport async function GET() {\r\n  try {\r\n    await connectDB();\r\n    return Response.json({ message: \"MongoDB connected successfully\" });\r\n  } catch (error) {\r\n    return Response.json(\r\n      { error: \"MongoDB connection failed\" },\r\n      { status: 500 }\r\n    );\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe;IACpB,IAAI;QACF,MAAM,IAAA,wHAAS;QACf,OAAO,SAAS,IAAI,CAAC;YAAE,SAAS;QAAiC;IACnE,EAAE,OAAO,OAAO;QACd,OAAO,SAAS,IAAI,CAClB;YAAE,OAAO;QAA4B,GACrC;YAAE,QAAQ;QAAI;IAElB;AACF"}}]
-}
